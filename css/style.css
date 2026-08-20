@@ -1,0 +1,20 @@
+h1{
+    color: beige;
+    background-color: brown;
+}
+h3{
+    color: azure;
+    background-color: black;
+    font-size: large;
+    font-size: 100px;
+}
+pre{
+    color: beige;
+    background-color: brown;
+    font-size: 70px;
+}
+p{
+    color: darkgreen;
+    background-color: lightgray;
+    font-size: 70px;
+}

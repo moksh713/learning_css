@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            color:white;
+            background-color:red ;
+            font-size: 90px;
+        }
+        h1{
+            color: green !important;
+            background-color: black !important;
+        }
+        /* the h1 tags wont follow the internal css command until they
+         already have a inline css command, it will give priority to the 
+         inline css unless !important is used in internal css*/
+        h2{
+            color: beige;
+            background-color: turquoise;
+        }
+        /* the h2 tags in body will use the last h2 commands, because last
+         command will overwrite the previous commands always */
+    </style>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <!-- inline css example -->
+    <h1 style="color: maroon;background-color: purple; font-size: 100px;">hello world</h1>
+    <h1 style="color: blue;background-color: violet;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+         font-weight: bolder; font-style: italic; font-size: 70px;" >EXAMPLE TEXT    
+    </h1>
+    <h1>inline css have priority on external css</h1>
+    <h2>css order and priority example</h2>
+    <h3>hello from index file</h3>
+</body>
+</html>
