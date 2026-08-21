@@ -1,7 +1,7 @@
-h1{
+/* h1{
     color: beige;
     background-color: brown;
-}
+} */
 h3{
     color: azure;
     background-color: black;
@@ -17,4 +17,29 @@ p{
     color: darkgreen;
     background-color: lightgray;
     font-size: 70px;
+}
+h2{
+    color: lightcyan;
+    background-color: darkred;
+}
+.t_transform_uppercase{
+    text-transform: uppercase;
+}
+.t_transform_lowercase{
+    text-transform: lowercase;
+}
+.t_transform_capitilize{
+    text-transform: capitalize;
+}
+.t_decor_underline{
+    text-decoration: underline;
+}
+.t_decor_overline{
+    text-decoration: overline;
+}
+.t_decor_linethrough{
+    text-decoration: line-through;
+}
+.over_under_through{
+    text-decoration: underline line-through overline;
 }
