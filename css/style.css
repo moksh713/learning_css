@@ -63,3 +63,98 @@ h2{
     text-shadow: 50px 8px 0px blue
     
 }
+.t_word_spacing{
+    word-spacing: 70px;
+}
+
+.t_letter_spacing{
+    letter-spacing: 20px;
+}
+.t_indent{
+    text-indent: 50px;
+}
+.t_line_height{
+    line-height: 40px;
+}
+.f_font_family1{
+    font-family: fantasy; 
+}
+
+/* THIS f_font_family example contains multiple kinds of text styles because some 
+browsers dont support some fonts so the browser can pick it one that it supports */
+.f_font_family2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.f_font_family3{
+    font-family: monospace    ;
+}
+.f_font_family4{
+    font-family:Arial;
+}
+.f_font_weight{
+    font-weight:900;
+}
+.f_font_size{
+    font-size: xx-large;
+}
+.f_font_style{
+    font-style: italic;
+}
+.f_font_variant{
+    font-variant:small-caps ;
+}
+.f_together_family_weight_style_size_variant{
+    font-family: monospace    ;font-weight:900;font-size: xx-large;font-style: italic;font-variant:small-caps ;
+}
+/* box shadow is used for images */
+.box_shadow1{
+    width: 300px;
+    height: 300px;
+    box-shadow: 30px 30px 5px black;
+}
+.box_shadow2{
+    width: 200px;
+    box-shadow: 15px 10px 6px  yellow ;
+}
+.drop_shadow1{
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(30px 30px 5px black) ;
+}
+.border_properties_solid{
+    border: 30px solid green;
+}
+.border_properties_dotted{
+    border: 30px dotted green;
+}
+.border_properties_dashed{
+    border: 30px dashed green;
+}
+.border_properties_inset{
+    border: 30px inset green;
+}
+.border_properties_outset{
+    border: 30px outset green;
+}
+.border_properties_double{
+    border: 30px double green;
+}
+.border_properties_groove{
+    border: 30px groove green;
+}
+.border_different_color{
+    border: solid 30px;
+    border-top-color: yellow;
+    border-left-color: aquamarine;
+    border-bottom-color: black;
+    border-right-color: brown;
+}
+.border_radius1{
+    border-radius: 50px;
+}
+.border_radius2{
+    border-radius: 50%;
+}
+.border_radius_all{
+    border-radius: 30px 90px 200px 50px;
+}
