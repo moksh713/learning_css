@@ -216,3 +216,113 @@ browsers dont support some fonts so the browser can pick it one that it supports
     bottom: 0px;
 
 }
+.background_color_liner_gradient{
+    height: 500px;
+    background: linear-gradient( darkblue,skyblue,purple);
+}
+.background_color_radial_gradient1{
+    height: 1000px;
+    background: radial-gradient(green, black, blue);
+}
+.background_color_radial_gradient2{
+    height: 1000px;
+    background: radial-gradient(circle, yellow, skyblue, black);
+}
+.background_color_conic_gradient1{
+    height: 1000px;
+    background:conic-gradient(from 90deg, red,white,black);
+}
+
+.flex_container1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+.flex_container2{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row; 
+    justify-content:center; /*justify content positions last items of the flex list */
+    list-style:none; /*list style removes bullet like mark on flex items*/
+}
+.flex_container3{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.flex_container4{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.flex_container5{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.flex_container6{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:column; 
+    justify-content:center; /*justify content positions last items of the flex list */
+    list-style:none; /*list style removes bullet like mark on flex items*/
+}
+.flex_container7{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:column-reverse; 
+    justify-content:center; /*justify content positions last items of the flex list */
+    list-style:none; /*list style removes bullet like mark on flex items*/
+}
+.flex_items{
+    background-color: blueviolet;
+    padding: 50px;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 50px;
+    width: 100px;
+    height: 60px;
+    color: black;
+    font-size: 100px;
+    display: flex;/*display property is added again in flex items css class so justify and align can work*/
+    justify-content: center;/*justify content used for horizontaly position of content*/
+    align-items: center;/*align items used for vertical position of content*/
+}
+.flex_container_images{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row; 
+    justify-content:; /*justify content positions last items of the flex list */
+}
+.flex_items_images{
+    height: 30%;
+    width: 30%;
+    border: 5px black solid;
+    padding: 20px;
+    margin: 20px;
+}
+.flex_images{
+    width: 100%;
+}
+
+.background_images_example1{
+    background-color: black;
+    background-image: url("../images/dog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background_images_example2{
+    background-image: url("../images/cat3.jpg");
+    background-color: black;
+    background-repeat:repeat-x;
+    background-size: cover;
+}
+.background_images_example3{
+    background-image: url("../images/cat3.jpg");
+    background-color: black;
+    background-repeat:repeat-y;
+    background-size: cover;
+}
