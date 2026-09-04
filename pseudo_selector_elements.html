@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <style>
+        /* focus pseudo element mainly used on input */
+        input:focus{   
+            border: solid green ;
+            background-color: black;
+            color: beige;
+        }
+        a:visited{
+            color:brown;
+        }
+        p::first-letter{
+            font-size: 50px;
+            color: green;
+        }
+        p::first-line{
+            color: darkgrey;
+        }
+        p::selection{
+            color:white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="pseudo_selector_hover1">PSEUDO SELECTOR HOVER EXAMPLE</h1>
+    <h1 class="pseudo_selector_active">PSEUDO SELECTOR ACTIVE EXAMPLE</h1>
+    <input type="text" placeholder="type here"/>
+    <br><br><br><br>
+    <a href="https://www.youtube.com/"> click here</a>
+     <br><br><br><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, cupiditate officia iure magni nulla veniam officiis, consequuntur molestiae incidunt fuga quasi mollitia ducimus qui odio optio aspernatur delectus, a quod?</p>
+</body>
+</html>
