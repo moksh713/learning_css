@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* This code is to display different type of images on different devices */
+        
+        .pc_image, .mobile_image{
+            width: 500px;
+            height: auto;
+        }   
+        .pc_image{
+            display: none;
+
+        }
+        .mobile_image{
+            display: block;
+        }
+
+        @media (min-width:768px){
+            .pc_image{
+                display: block;
+            }
+            .mobile_image{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="images/cat.png" class="pc_image"/>
+    <img src="images/cat3.jpg" class="mobile_image"/>
+</body>
+</html>
